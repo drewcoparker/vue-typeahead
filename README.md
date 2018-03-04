@@ -2,6 +2,8 @@
 
 > A typeahead UI pattern for future reference
 
+credit: Belmin Bedak, https://scotch.io/@bedakb/lets-build-type-ahead-component-with-vuejs-2-and-fetch-api
+
 ## Build Setup
 
 ``` bash
