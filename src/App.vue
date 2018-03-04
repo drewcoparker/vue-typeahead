@@ -1,17 +1,16 @@
 <template>
     <div id="app">
-        <img src="./assets/logo.png">
-        <HelloWorld/>
+        <Typeahead/>
     </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import Typeahead from './components/Typeahead'
 
 export default {
     name: 'App',
     components: {
-        HelloWorld
+        Typeahead
     }
 }
 </script>
