@@ -3,6 +3,7 @@
         <input
             v-model="query"
             type="text"
+            @blur="reset"
             class="search-input"
             :placeholder="placeHolder"
         />
@@ -60,6 +61,10 @@ export default {
             } else {
                 this.items = this.source
             }
+        },
+
+        reset () {
+            this.query = ''
         }
     },
 
